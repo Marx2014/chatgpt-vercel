@@ -18,7 +18,7 @@ export default ({ role, message }: Props) => {
   useCopyCode()
   const roleClass = {
     system: "#ff0000",
-    user: "bg-gradient-to-r from-sky-400 to-emerald-500",
+    user: "#ff00ff",
     assistant: "bg-gradient-to-r from-yellow-300 to-red-700 "
   }
 
